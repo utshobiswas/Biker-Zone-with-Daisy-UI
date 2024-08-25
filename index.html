@@ -165,7 +165,7 @@
     <main class="md:container mx-auto">
         <!-- Latest Bike Section -->
         <section class="my-24">
-            <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
+            <h3 class="text-4xl md:text-5xl font-bold text-center mb-12">Latest Bikes</h3>
             <!-- cards -->
             <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 px-5">
                 <!-- card 1 -->
@@ -214,11 +214,11 @@
         </section>
         <!-- FAQ Section -->
         <section class="my-24">
-            <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span
+            <h3 class="text-4xl md:text-5xl font-bold text-center mb-12">Frequently Asked <span
                     class="text-bike-primary">Questions</span></h3>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row">
-                    <img src="./images/others/faq.png" class="max-w-md rounded-lg shadow-2xl" />
+                    <img src="./images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
                     <div class="space-y-5">
                         <div class="collapse collapse-arrow border border-blue-100">
                             <input type="radio" name="my-accordion-2" checked="checked" />
@@ -265,9 +265,31 @@
                 </div>
         </section>
     </main>
-    <footer>
-
+    <!-- Footer Section -->
+    <footer class="footer bg-black text-neutral-content p-10">
+        <section class="md:container mx-auto md:flex justify-between">
+            <aside>
+                <p>
+                    Download Now
+                    <br>
+                    About
+                </p>
+            </aside>
+            <nav class="space-y-6">
+                <h6 class="footer-title">Get the App</h6>
+                <div class="grid grid-cols-1 gap-4">
+                    <a> <img class="w-36" src="./images/others/android.png" alt=""> </a>
+                    <a> <img class="w-36" src="./images/others/ios.png" alt=""> </a>
+                    
+                </div>
+            </nav>
+            
+        </section>
+        
     </footer>
+    <div class="bg-black text-white text-center pb-10">
+        <p>© 2020 bike. All rights reserved</p>
+    </div>
 </body>
 
 </html>
